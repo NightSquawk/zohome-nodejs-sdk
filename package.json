@@ -3,7 +3,7 @@
   "version": "0.0.1",
   "repository": {
     "type": "git",
-    "url": "git@github.com:NightSquawk/zohome-nodejs-sdk.git",
+    "url": "git@github.com:NightSquawk/zohome-nodejs-sdk.git"
   },
   "author": "Kevin R. (Kvrnn#6940, Syntax#5569)",
   "description": "A NodeJS SDK for Zoho's ManageEngine for Hybrid Environments",
@@ -22,5 +22,8 @@
     "index.js",
     "lib/*.js"
   ],
-  "license": "GPL-3.0"
+  "license": "GPL-3.0",
+  "dependencies": {
+    "axios": "^1.6.8"
+  }
 }
